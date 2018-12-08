@@ -1,4 +1,4 @@
-# l1ntit
+# TDDit
 
 <p align="center">
   <a href="https://github/apps/l1ntit" target="blank"><img src="https://github.com/k1b1b0t.png" width="150" alt="achievibit Logo" />
