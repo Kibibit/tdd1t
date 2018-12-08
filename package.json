@@ -1,0 +1,53 @@
+{
+  "name": "TDD1t",
+  "version": "0.0.0",
+  "description": "A probot for GitHub that makes sure your feature specs match your tests",
+  "author": "Neil Kalman <Neilkalman@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com//l1ntit.git",
+  "homepage": "https://github.com//l1ntit",
+  "bugs": "https://github.com//l1ntit/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "probot": "^7.2.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
