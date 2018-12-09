@@ -1,6 +1,6 @@
 {
   "name": "@kibibit/tdd1t",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "A probot for GitHub that makes sure your feature specs match your tests",
   "author": "Neil Kalman <Neilkalman@gmail.com>",
   "license": "ISC",
@@ -22,7 +22,23 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage",
     "test:cov": "jest --coverage",
     "coveralls": "npm run test:cov && cat ./test-results/lcov.info | coveralls",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": false,
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   },
   "husky": {
     "hooks": {
@@ -43,6 +59,11 @@
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-angular": "^7.1.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/github": "^5.2.5",
+    "@semantic-release/npm": "^5.1.1",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "commitizen": "3.0.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
@@ -52,6 +73,8 @@
     "jest-html-reporter": "^2.4.2",
     "nock": "^10.0.0",
     "nodemon": "^1.17.2",
+    "semantic-release": "^15.12.4",
+    "semantic-release-cli": "^4.0.12",
     "smee-client": "^1.0.2",
     "travis-deploy-once": "^5.0.9"
   },
