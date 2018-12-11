@@ -64,7 +64,7 @@
     "@semantic-release/github": "^5.2.5",
     "@semantic-release/npm": "^5.1.1",
     "@semantic-release/release-notes-generator": "^7.1.4",
-    "commitizen": "3.0.5",
+    "commitizen": "3.0.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
     "eslint-plugin-lodash": "^5.1.0",
@@ -77,6 +77,11 @@
     "semantic-release-cli": "^4.0.12",
     "smee-client": "^1.0.2",
     "travis-deploy-once": "^5.0.9"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "commitizen"
+    ]
   },
   "engines": {
     "node": ">= 8.3.0"
