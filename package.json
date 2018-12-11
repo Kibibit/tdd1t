@@ -4,9 +4,9 @@
   "description": "A probot for GitHub that makes sure your feature specs match your tests",
   "author": "Neil Kalman <Neilkalman@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com//l1ntit.git",
-  "homepage": "https://github.com//l1ntit",
-  "bugs": "https://github.com//l1ntit/issues",
+  "repository": "https://github.com/kibibit/tdd1t.git",
+  "homepage": "https://github.com/kibibit/l1ntit",
+  "bugs": "https://github.com/kibibit/tdd1t/issues",
   "keywords": [
     "probot",
     "github",
