@@ -6,11 +6,6 @@
     }
   },
   "rules": {
-    "lodash/prefer-is-nil": 2,
-    "lodash/prefer-lodash-typecheck": 2,
-    "lodash/prefer-startswith": 2,
-    "lodash/prefer-includes": 2,
-    "lodash/prefer-noop": 2,
     "accessor-pairs": "error",
     "no-unused-vars": "error",
     "default-case": "error",
