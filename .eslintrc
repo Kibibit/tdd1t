@@ -30,7 +30,7 @@
         "properties": "always"
       }
     ],
-    "linebreak-style": [],
+    "linebreak-style": 0,
     "max-len": [
       2,
       80
