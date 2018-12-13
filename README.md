@@ -7,6 +7,7 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Build Status](https://travis-ci.org/Kibibit/tdd1t.svg?branch=master)](https://travis-ci.org/Kibibit/tdd1t)
 [![Coverage Status](https://coveralls.io/repos/github/Kibibit/tdd1t/badge.svg?branch=master)](https://coveralls.io/github/Kibibit/tdd1t?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/Kibibit/tdd1t.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/kibibit/tdd1t/badge.svg)](https://snyk.io/test/github/kibibit/tdd1t)
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that checks Feature specs against submitted tests in a Pull Request.
 
