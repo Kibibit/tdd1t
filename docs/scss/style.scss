@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@mixin gradient-text($color1, $color2) {
+  background: $color1;
+  background: linear-gradient(to top, $color2, $color1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kb-kibibit {
+  font-family: 'Righteous', cursive;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+}
+
+.kb-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  > img {
+    width: 90%;
+  }
+}
+
+.kb-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  // text-align: center;
+  
+  > img {
+    width: 90%;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 5em;
+  transition: 250ms all;
+  margin-bottom: 2rem;
+
+  &.bot {
+    padding-right: 0;
+  }
+}
+
+.tdd-logo {
+  position: relative;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5rem;
+  @include gradient-text(#4776E6, #8E54E9);
+
+  &:before,
+  &:after {
+    content: 'D';
+    transition: all 250ms;
+    transition-delay: 200ms;
+    display: inline-block;
+    @include gradient-text(#4776E6, #8E54E9);
+  }
+
+  &:not(.bot):before {
+    opacity: 0;
+  }
+
+  &.bot:before {
+    transform: rotate(180deg) translate3d(0, -8px, 0);
+  }
+
+  &.bot .extra-D {
+    max-width: 0;
+    opacity: 0;
+  }
+
+  .extra-D {
+    max-width: 100px;
+    display: inline-block;
+    transition: all 250ms;
+    @include gradient-text(#4776E6, #8E54E9);
+  }
+
+  &.bot .bot-eye {
+    max-height: 1.5em;
+  }
+
+  &.bot .bot-mouth {
+    height: 1.5em;
+  }
+
+  .bot-mouth {
+    transition: 250ms all;
+    transition-delay: 500ms;
+    height: 0;
+    position: absolute;
+    z-index: 5;
+    transform: translate3d(-50%, 0, 0) rotate(90deg);
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: -20px;
+    left: 51%;
+    font-size: 0.5em;
+  }
+
+  .bot-eye {
+    transition: all 250ms;
+    transition-delay: 500ms;
+    max-height: 0;
+    position: absolute;
+    bottom: 2.2em;
+    background: whitesmoke;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 5;
+    font-size: 0.2em;
+    transform: rotate(-90deg);
+
+    &.right {
+      right: 37%;
+    }
+
+    &.left {
+      left: 37%;
+
+    }
+  }
+}
