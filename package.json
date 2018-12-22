@@ -23,7 +23,9 @@
     "test:cov": "jest --coverage",
     "coveralls": "npm run test:cov && cat ./test-results/lcov.info | coveralls",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "release": {
     "plugins": [
@@ -64,6 +66,7 @@
     "@semantic-release/github": "^5.2.5",
     "@semantic-release/npm": "^5.1.1",
     "@semantic-release/release-notes-generator": "^7.1.4",
+    "all-contributors-cli": "^5.4.1",
     "commitizen": "3.0.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
