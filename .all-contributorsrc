@@ -1,0 +1,51 @@
+{
+  "projectName": "tdd1t",
+  "projectOwner": "kibibit",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "Thatkookooguy",
+      "name": "Neil Kalman",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10427304?s=460&v=4",
+      "profile": "https://github.com/Thatkookooguy",
+      "contributions": [
+        "infra",
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ortichon",
+      "name": "Or Tichon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10263615?s=460&v=4",
+      "profile": "https://github.com/ortichon",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dunaevsky",
+      "name": "Michael Dunaevsky",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19394324?s=460&v=4",
+      "profile": "https://github.com/dunaevsky",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ZimGil",
+      "name": "Gil Tichon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39461857?s=400&v=4",
+      "profile": "https://github.com/ZimGil",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
