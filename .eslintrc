@@ -93,6 +93,14 @@
       2,
       "never"
     ],
+    "object-curly-spacing": [
+      "error",
+      "always",
+      {
+        "arraysInObjects": true,
+        "objectsInObjects": true
+      }
+    ],
     "no-multiple-empty-lines": 2,
     "no-with": 2,
     "no-spaced-func": 2,
