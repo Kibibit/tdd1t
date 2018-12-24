@@ -15,9 +15,9 @@
   "scripts": {
     "dev": "nodemon",
     "start": "probot run ./index.js",
-    "lint": "npx eslint ./lib/*.js",
-    "lint:fix": "npx eslint --fix ./lib/*.js",
-    "commit": "npx git-cz",
+    "lint": "eslint ./lib/*.js",
+    "lint:fix": "eslint --fix ./lib/*.js",
+    "commit": "git-cz",
     "test": "jest",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage",
     "test:cov": "jest --coverage",

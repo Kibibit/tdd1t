@@ -21,6 +21,12 @@
   "files.insertFinalNewline": true,
   "githubPullRequests.includeRemotes": "all",
   "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
   "jshint.enable": false,
   "cSpell.enabled": false,
   // Jest
@@ -60,5 +66,9 @@
     "overviewRulerColor": "rgba(128,0,128, 1)",
     "borderRadius": "2px",
     "isWholeLine": true,
+  },
+  "window.title": "${activeEditorShort}${separator}${rootName} [kibibit]",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ffdd57"
   }
 }
