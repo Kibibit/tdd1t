@@ -5,3 +5,5 @@ package-lock.json
 test-results/
 .DS_store
 codealike\.json
+
+test/fixtures/*\.autosave.json
