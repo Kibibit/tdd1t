@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "name": "tdd1t",
+  "alias": "tdd1t.now.sh",
+  "type": "npm",
+  "env": {
+    "NODE_ENV": "production",
+    "LOG_LEVEL": "info",
+    "APP_ID": "23596"
+  },
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": 1
+    }
+  }
+}
