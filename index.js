@@ -7,10 +7,11 @@ module.exports = app => {
   app.on('pull_request.synchronize', checkPrTDD);
 
   app.on('issues.edited', checkPrTDD);
-
-  // For more information on building apps:
-  // https://probot.github.io/docs/
-
-  // To get your app running against GitHub, see:
-  // https://probot.github.io/docs/development/
 };
+
+
+// For more information on building apps:
+// https://probot.github.io/docs/
+
+// To get your app running against GitHub, see:
+// https://probot.github.io/docs/development/
