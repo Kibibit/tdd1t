@@ -8,7 +8,12 @@ hljs.initHighlightingOnLoad();
 // TODO: We might change more elements based on first installation
 // like including more specific documentation
 if (getUrlVars().setup_action === 'install') {
-  $('#kb-main-subtitle').text('Thanks for integrating tdd1t');
+  $('#kb-main-subtitle')
+    .text('Thanks for integrating tdd1t')
+    .addClass('has-text-success');
+
+  $('.kb-hide-on-install').hide();
+
 }
 
 function getUrlVars() {
