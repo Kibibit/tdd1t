@@ -27,12 +27,13 @@ body {
   font-size: 0.8em;
 }
 
-.powered-by {
+a.powered-by {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.2em;
   color: white;
+  transition: color 250ms;
 }
 
 .probot-logo {
@@ -57,6 +58,15 @@ body {
   font-family: 'Righteous', cursive;
   letter-spacing: 0.05em;
   opacity: 0.7;
+}
+
+footer.footer a:not(.powered-by) {
+  color: mediumorchid;
+  transition: color 250ms;
+}
+
+footer.footer a:hover {
+  color: #00B0D8;
 }
 
 .kb-centered {
