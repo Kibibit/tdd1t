@@ -10,6 +10,49 @@ body {
   box-sizing: inherit;
 }
 
+.hero.is-fullheight > .hero-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#kb-main-subtitle {
+  text-align: center;
+}
+
+.powered-by-block {
+  margin-bottom: 1em;
+}
+
+.powered-by-description {
+  font-size: 0.8em;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.2em;
+  color: white;
+}
+
+.probot-logo {
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+  font-weight: 300;
+  color: #00B0D8;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+}
+
+.probot-logo:before {
+  content: '';
+  display: inline-block;
+  height: 2em;
+  background-image: url(https://github.com/probot.png);
+  width: 2em;
+  background-size: contain;
+}
+
 .kb-kibibit {
   font-family: 'Righteous', cursive;
   letter-spacing: 0.05em;
@@ -23,7 +66,8 @@ body {
   flex-direction: column;
 }
 .kb-centered > img {
-  width: 90%;
+  width: 80%;
+  margin-bottom: 1em;
 }
 
 .kb-container {

@@ -6,7 +6,7 @@
   <title>tdd1t</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Fredoka+One|Righteous|Major+Mono+Display|Comfortaa'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Fredoka+One|Righteous|Major+Mono+Display|Comfortaa|Material+Icons'>
   <link rel='stylesheet' href='https://jenil.github.io/bulmaswatch/cyborg/bulmaswatch.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/shades-of-purple.min.css'>
 
@@ -28,7 +28,14 @@
       <h2 class="subtitle" id="kb-main-subtitle">
         Check that your tests cover you feature specifications
       </h2>
-      <a class="button is-primary">Integrate Now</a>
+      <div class="powered-by-block">
+        <a class="powered-by" href="https://probot.github.io/" target="_blank">
+          <i class="material-icons">power</i>
+          powered by <span class="probot-logo">probot</span>
+        </a>
+        <span class="has-text-grey-light powered-by-description">GitHub Apps to automate and improve your workflow</span>
+      </div>
+      <a class="button is-primary" href="https://github.com/apps/tdd1t">Integrate Now</a>
     </div>
   </div>
 </section>
@@ -41,10 +48,7 @@
       <h2 class="subtitle">
         Include a snippet with a Specs title to create a list of specifications
       </h2>
-      <pre><code class="markdown">## Specs
-- it should do stuff
-- it should do other stuff
-</code></pre>
+      <img src="/issue.png">
     </div>
   </div>
 </section>
@@ -57,7 +61,7 @@
       <h2 class="subtitle">
         tdd1t is looking for the resolve keyword to make sure it knows which feature is being implemented
       </h2>
-      <img src="https://i.stack.imgur.com/sK6Z6.png">
+      <img src="/connect.png">
     </div>
   </div>
 </section>
@@ -70,19 +74,27 @@
       <h2 class="subtitle">
         each time you'll commit to the pull request, tdd1t will automatically check your written tests against a feature's specs, and will prompt you to either update the issue or write more tests.
       </h2>
-      <img src="https://github-images.s3.amazonaws.com/skitch/status-001-20120830-161640.jpg">
+      <img src="status-passed.png">
+      <img src="status-failed.png">
     </div>
   </div>
 </section>
 <section class="hero is-dark is-bold">
   <div class="hero-body">
     <div class="container kb-centered">
-      <a class="button is-primary">Integrate Now</a>
+        <a class="button is-primary" href="https://github.com/apps/tdd1t">Integrate Now</a>
     </div>
   </div>
 </section>
 <footer class="footer">
   <div class="content has-text-centered">
+    <div class="powered-by-block">
+        <a class="powered-by" href="https://probot.github.io/" target="_blank">
+          <i class="material-icons">power</i>
+          powered by <span class="probot-logo">probot</span>
+        </a>
+      <span class="has-text-grey-light powered-by-description">GitHub Apps to automate and improve your workflow</span>
+    </div>
     <p>
       <strong>tdd1t</strong> by <a href="https://github.com/kibibit">kibibit</a>. The source code is licensed
       <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
