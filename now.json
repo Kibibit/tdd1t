@@ -2,6 +2,7 @@
   "version": 1,
   "name": "tdd1t",
   "alias": "tdd1t.now.sh",
+  "public": true,
   "type": "npm",
   "env": {
     "NODE_ENV": "production",
