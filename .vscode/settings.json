@@ -70,5 +70,6 @@
   "window.title": "${activeEditorShort}${separator}${rootName} [kibibit]",
   "workbench.colorCustomizations": {
     "titleBar.activeForeground": "#ffdd57"
-  }
+  },
+  "html.format.enable": false
 }
