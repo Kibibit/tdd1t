@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "dev": "nodemon",
-    "start": "probot run ./index.js",
+    "start": "./deploy-pre-script.sh",
+    "start:bot": "probot run ./index.js",
     "lint": "eslint ./lib/*.js",
     "lint:fix": "eslint --fix ./lib/*.js",
     "commit": "git-cz",
