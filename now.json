@@ -7,7 +7,9 @@
   "env": {
     "NODE_ENV": "production",
     "LOG_LEVEL": "info",
-    "APP_ID": "23596"
+    "APP_ID": "23596",
+    "WEBHOOK_SECRET": "@webhook_secret",
+    "PRIVATE_KEY": "@private_key"
   },
   "scale": {
     "sfo1": {
