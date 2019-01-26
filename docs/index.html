@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<section class="hero is-dark is-bold is-fullheight">
+<section class="hero is-dark is-bold is-fullheight" id="section01">
   <div class="hero-body">
     <div class="container kb-container">
       <div class="logo-container">
@@ -28,6 +28,7 @@
       <h2 class="subtitle" id="kb-main-subtitle">
         Check that your tests cover you feature specifications
       </h2>
+      <a class="button is-primary kb-hide-on-install kb-integrate" href="https://github.com/apps/tdd1t">Integrate Now</a>
       <div class="powered-by-block">
         <a class="powered-by" href="https://probot.github.io/" target="_blank">
           <i class="material-icons">power</i>
@@ -35,11 +36,10 @@
         </a>
         <span class="has-text-grey-light powered-by-description">GitHub Apps to automate and improve your workflow</span>
       </div>
-      <a class="button is-primary kb-hide-on-install" href="https://github.com/apps/tdd1t">Integrate Now</a>
     </div>
   </div>
 </section>
-<section class="hero is-dark">
+<section class="hero is-dark" id="section02">
   <div class="hero-body">
     <div class="container kb-centered">
       <h1 class="title">
@@ -52,7 +52,7 @@
     </div>
   </div>
 </section>
-<section class="hero is-primary is-bold">
+<section class="hero is-primary is-bold" id="section03">
   <div class="hero-body">
     <div class="container kb-centered">
       <h1 class="title">
@@ -65,7 +65,7 @@
     </div>
   </div>
 </section>
-<section class="hero is-warning is-bold">
+<section class="hero is-warning is-bold" id="section04">
   <div class="hero-body">
     <div class="container kb-centered">
       <h1 class="title">
@@ -79,15 +79,9 @@
     </div>
   </div>
 </section>
-<section class="hero is-dark is-bold kb-hide-on-install">
-  <div class="hero-body">
-    <div class="container kb-centered">
-        <a class="button is-primary" href="https://github.com/apps/tdd1t">Integrate Now</a>
-    </div>
-  </div>
-</section>
 <footer class="footer">
   <div class="content has-text-centered">
+    <a class="button is-primary kb-integrate kb-hide-on-install" href="https://github.com/apps/tdd1t">Integrate Now</a>
     <div class="powered-by-block">
         <a class="powered-by" href="https://probot.github.io/" target="_blank">
           <i class="material-icons">power</i>
@@ -104,6 +98,12 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
   <script  src="js/index.js"></script>
 </body>

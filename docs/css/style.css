@@ -10,6 +10,24 @@ body {
   box-sizing: inherit;
 }
 
+.kb-integrate {
+  margin-bottom: 1.5rem;
+}
+
+[id^=section] .hero-body {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.7s ease-out;
+  transform: translate3d(0, 50px, 0);
+}
+
+.is-active[id^=section] .hero-body {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 .hero.is-fullheight > .hero-body {
   padding-top: 0;
   padding-bottom: 0;
@@ -60,7 +78,7 @@ a.powered-by {
   opacity: 0.7;
 }
 
-footer.footer a:not(.powered-by) {
+footer.footer a:not(.powered-by):not(.button) {
   color: mediumorchid;
   transition: color 250ms;
 }
@@ -97,7 +115,7 @@ footer.footer a:hover {
   align-items: flex-end;
   flex-direction: column;
   padding-right: 5em;
-  transition: 250ms all;
+  transition: padding 250ms;
   margin-bottom: 2rem;
 }
 .logo-container.bot {
@@ -110,16 +128,18 @@ footer.footer a:hover {
   font-size: 5rem;
   background: #4776E6;
   background: linear-gradient(to top, #8E54E9, #4776E6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .tdd-logo:before, .tdd-logo:after {
   content: 'D';
-  transition: all 250ms;
+  transition: opacity 250ms, transform 250ms;
   transition-delay: 200ms;
   display: inline-block;
   background: #4776E6;
   background: linear-gradient(to top, #8E54E9, #4776E6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -139,6 +159,7 @@ footer.footer a:hover {
   transition: all 250ms;
   background: #4776E6;
   background: linear-gradient(to top, #8E54E9, #4776E6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,6 +177,7 @@ footer.footer a:hover {
   z-index: 5;
   transform: translate3d(-50%, 0, 0) rotate(90deg);
   background: white;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   bottom: -20px;
@@ -169,6 +191,7 @@ footer.footer a:hover {
   position: absolute;
   bottom: 2.2em;
   background: whitesmoke;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 5;
