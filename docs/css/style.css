@@ -72,6 +72,12 @@ a.powered-by {
   background-size: contain;
 }
 
+.github-logo {
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+  width: 1.5em;
+}
+
 .kb-kibibit {
   font-family: 'Righteous', cursive;
   letter-spacing: 0.05em;
