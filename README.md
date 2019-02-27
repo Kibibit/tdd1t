@@ -1,19 +1,25 @@
 <p align="center">
-  <a href="https://github/apps/l1ntit" target="blank"><img src="https://github.com/k1b1b0t.png" width="150" alt="achievibit Logo" />
+  <a href="https://github/apps/l1ntit" target="blank"><img src="http://kibibit.io/kibibit-assets/4x/tdd1t-avatar%404x.png" width="150" alt="achievibit Logo" />
   </a>
-  <h1 align="center">tdd1t</h1>
+  <h2 align="center">tdd1t</h2>
 </p>
+<p align="center">
+  <a href="https://probot.github.io/"><img src="https://img.shields.io/badge/Probot-b33p-00B0D8.svg?style=for-the-badge&logo=probot&logoColor=white"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"></a>
+  <a href="https://greenkeeper.io/"><img src="https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg"></a>
+  <a href="https://travis-ci.org/Kibibit/tdd1t"><img src="https://travis-ci.org/Kibibit/tdd1t.svg?branch=master"></a>
+  <a href="https://coveralls.io/github/Kibibit/tdd1t?branch=master"><img src="https://coveralls.io/repos/github/Kibibit/tdd1t/badge.svg?branch=master"></a>
+  <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-4-orange.svg"></a>
+  <a href="https://salt.bountysource.com/teams/kibibit"><img src="https://img.shields.io/endpoint.svg?url=https://monthly-salt.now.sh&style=flat-square"></a>
+</p>
+<p align="center">
+  A bot to support your TDD efforts
+</p>
+<hr>
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Build Status](https://travis-ci.org/Kibibit/tdd1t.svg?branch=master)](https://travis-ci.org/Kibibit/tdd1t)
-[![Coverage Status](https://coveralls.io/repos/github/Kibibit/tdd1t/badge.svg?branch=master)](https://coveralls.io/github/Kibibit/tdd1t?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/Kibibit/tdd1t.svg)](https://greenkeeper.io/)
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
-
-> A GitHub App built with [Probot](https://github.com/probot/probot) that checks Feature specs against submitted tests in a Pull Request.
-
-## Plans
-- [ ] Add support for `it()` tests (mocha\karma style)
-- [ ] create a user configuration that can set style of test writing and style of specs writing
+A GitHub App that checks Feature specs against submitted tests in a Pull Request.
 
 ## Setup
 
