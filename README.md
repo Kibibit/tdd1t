@@ -13,7 +13,7 @@
   <a href="https://travis-ci.org/Kibibit/tdd1t"><img src="https://travis-ci.org/Kibibit/tdd1t.svg?branch=master"></a>
   <a href="https://coveralls.io/github/Kibibit/tdd1t?branch=master"><img src="https://coveralls.io/repos/github/Kibibit/tdd1t/badge.svg?branch=master"></a>
   <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-4-orange.svg"></a>
-  <a href="https://salt.bountysource.com/teams/kibibit"><img src="https://img.shields.io/endpoint.svg?url=https://monthly-salt.now.sh&style=flat-square"></a>
+  <a href="https://salt.bountysource.com/teams/kibibit"><img src="https://img.shields.io/endpoint.svg?url=https://monthly-salt.now.sh/kibibit&style=flat-square"></a>
 </p>
 <p align="center">
   A bot to support your TDD efforts
