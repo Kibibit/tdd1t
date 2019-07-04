@@ -26,7 +26,9 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "release": {
     "plugins": [
@@ -58,7 +60,8 @@
     "probot": "^7.2.0",
     "tslint": "^5.11.0",
     "typescript": "^3.1.6",
-    "jsonfile": "^5.0.0"
+    "jsonfile": "^5.0.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
@@ -118,5 +121,6 @@
         }
       ]
     ]
-  }
+  },
+  "snyk": true
 }
