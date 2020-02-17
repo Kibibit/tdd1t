@@ -78,7 +78,7 @@
     "jest-html-reporter": "^2.4.2",
     "nock": "^10.0.0",
     "nodemon": "^1.17.2",
-    "semantic-release": "^15.12.4",
+    "semantic-release": "^17.0.4",
     "semantic-release-cli": "^4.0.12",
     "smee-client": "^1.0.2",
     "travis-deploy-once": "^5.0.9"
