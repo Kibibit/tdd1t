@@ -68,7 +68,7 @@
     "@semantic-release/github": "^5.2.5",
     "@semantic-release/npm": "^5.1.1",
     "@semantic-release/release-notes-generator": "^7.1.4",
-    "all-contributors-cli": "^6.0.0",
+    "all-contributors-cli": "^6.15.0",
     "commitizen": "3.0.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
